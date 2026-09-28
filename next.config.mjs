@@ -1,3 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig={output:'standalone'}
-export default nextConfig
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+};
+
+export default nextConfig;
